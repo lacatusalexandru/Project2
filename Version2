@@ -30,7 +30,7 @@ void setup() {
   // turn on the radio and set the volume to a desired level
   radio.powerOn();
   radio.setVolume(15); //volume between 0 and 15 
-  // set the radio to a default frequency (Nova 96.9 MHz FM)
+  // set the radio to a default frequency
   channel = 969;
   radio.setChannel(channel);
   // display a title 'FM Radio' on line 0 of the LCD, centred
